@@ -1,0 +1,23 @@
+.spin{
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  border: 30px solid cyan;
+  border-top-color: transparent;
+  border-right-color: cyan;
+  border-left-color: blue;
+  border-bottom-color: pink;
+  position: absolute;
+  left: 40%; 
+  top: 30%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
